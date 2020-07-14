@@ -1,0 +1,22 @@
+body {
+    background-color:#EAEAEA;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.content {
+    color: black;
+}
+
+.mybtn {
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

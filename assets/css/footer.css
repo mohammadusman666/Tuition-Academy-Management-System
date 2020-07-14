@@ -1,0 +1,15 @@
+.footer-light {
+    padding: 50px 0;
+    background-color:#f7f9fc;
+    color:#333;
+}
+.footer-light div {
+    display: table;
+}
+.footer-light .copyright {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    opacity: 0.8;
+    font-size: 14px;
+}

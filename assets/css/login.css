@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box; /* padding and border are included in the width and height */
+}
+
+body {
+    background-color:#030005;
+}
+
+.login-clean {
+    padding: 45px 0;
+}
+
+.login-clean form {
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:#ffffff;
+    padding: 40px;
+    border-radius: 4px;
+    color:#505e6c;
+}
+
+.login-clean .illustration {
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 100px;
+    color:rgb(244,71,107);
+}
+
+.login-clean form .form-control {
+    background-color:#f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    color: #505e6c;
+    text-indent: 8px;
+    height: 42px;
+}
+
+.login-clean form .form-control:focus {
+    color:#333;
+}
+
+.input-div {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.login-clean form .btn {
+    background-color:#f4476b;
+    color: #f7f9fc;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    outline: 0;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+}
+
+.login-clean form .btn:hover, .login-clean form .btn:active {
+    background-color:#eb3b60;
+    outline: 0;
+}
+
+.login-clean form .btn:active {
+    transform: translateY(2px);
+}
+
+.login-clean form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color:#333;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+    opacity: 1;
+}

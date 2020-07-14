@@ -1,0 +1,23 @@
+body {
+    background-color: #030005;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin-top: 10px;
+    color: black;
+}
+
+h3, p {
+    text-align: center;
+}
+
+.mybtn {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap3.3.7.min.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/login.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div>
+            <nav class="navbar navbar-default navigation-clean-button">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">Tuition Academy</a>
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <p class="navbar-text navbar-right actions">
+                            <a class="btn btn-default action-button" role="button">Log In</a>
+                        </p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="login-clean">
+            <form role="form" method="POST">
+                <div class="illustration"><i class="icon ion-ios-person-outline"></i></div>
+                <div class="form-group">
+                    <div class="input-div animated fadeIn">
+                        <select class="form-control" id="usertype">
+                            <option val="S">Student</option>
+                            <option val="T">Teacher</option>
+                            <option val="M">Manager</option>
+                            <option val="A">Administrator</option>
+                        </select>
+                    </div>
+                    <div class="input-div animated fadeIn">
+                        <input class="form-control" type="text" id="username" name="username" placeholder="Username">
+                    </div>
+                    <div class="input-div animated fadeIn">
+                        <input class="form-control" type="password" id="password" name="password" placeholder="Password">
+                    </div>
+
+                    <div id="error"></div>
+
+                    <div class="animated fadeIn">
+                        <button class="btn btn-block animated fadeIn" type="button" id="login" name="login">Log In</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-light navbar-fixed-bottom" style="position: relative">
+            <footer>
+                <div class="container">
+                    <p class="copyright">Tuition Academy© 2018</p>
+                </div>
+            </footer>
+        </div>
+
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/login.js"></script>
+    </body>
+</html>

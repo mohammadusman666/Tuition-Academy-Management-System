@@ -1,0 +1,28 @@
+body {
+    background-color:#EAEAEA;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+.myh3 {
+    color: black;
+}
+
+.content {
+    color: black;
+}
+
+.mybtn {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
